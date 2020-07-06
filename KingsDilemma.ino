@@ -20,7 +20,7 @@ void loop()
 {
   switch(signalState)
   {
-  case SETUP:
+  case SETUP:  
     setupLoop();
     break;
 
@@ -41,6 +41,7 @@ void loop()
 
 void setupLoop()
 {
+  Role = PAWN;
   
   if(buttonSingleClicked())
   {
@@ -49,7 +50,7 @@ void setupLoop()
   }
 
     bool foundKing = false;
-
+    
     // CHECK FOR START SIGNAL
   FOREACH_FACE(f)
   {
@@ -70,16 +71,16 @@ void setupLoop()
         }
       }
     }
+  }
 
-    if(signalState == START && foundKing)
+    if(signalState == START && foundKing && Role != KING)
     {
       Role = KNIGHT;
     }
-    else
+    else if(signalState == START && Role != KING)
     {
       Role = WIZARD;
     }
-  }
 }
 
 void startLoop()
@@ -134,6 +135,12 @@ void playLoop()
 
 void displayRole()
 {
+  // ADD IF ELSE IF I'M IN SETUP
+  if (signalState == SETUP) 
+  {
+    setColor(CYAN);
+  } else {
+  
   switch(Role)
   {
     case PAWN:
@@ -184,6 +191,7 @@ void displayRole()
           break;
       }
       break;
+    }
   }
 }
 
@@ -225,7 +233,6 @@ void switchTeams()
       Team = WHITETEAM;
     }
 }
-
 
 byte getSignalState(byte data)
 {

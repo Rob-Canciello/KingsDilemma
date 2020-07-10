@@ -5,6 +5,8 @@ byte Role = PAWN;
 enum Teams {WHITETEAM, BLACKTEAM};
 byte Team = WHITETEAM;
 
+byte health = 3;
+
 enum signalState {SETUP, START, PLAY};
 // Then a byte to hold the current state.
 byte signalState = SETUP;
@@ -198,10 +200,30 @@ void displayRole()
 
 void displayKing()
 {
+  if(buttonSingleClicked())
+  {
+      health = health - 1;
+  }
+  
   FOREACH_FACE(f) 
   {
-    setColorOnFace(YELLOW, f);
-    f+=1;
+    if(health == 3)
+    {
+       setColorOnFace(YELLOW, f);
+       f+=1;
+    }
+
+    if (health == 2)
+    {
+      setColorOnFace(YELLOW, f);
+       f+=3;
+    }
+
+    if(health == 1)
+    { 
+      setColorOnFace(YELLOW, f);
+       f+=5;
+    }
   }
 }
 

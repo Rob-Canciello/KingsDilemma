@@ -1,6 +1,7 @@
 # KingsDilemma
 
 Welcome to The King's Dilemma!
+
 Official Design Doc here: https://docs.google.com/document/d/1H-vCum4QQeB4nF1hU_OXaCxobPnai5K3EtTzpQqiWWo/edit#
 
 The King’s Dilemma!

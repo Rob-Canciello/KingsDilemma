@@ -7,6 +7,7 @@ The King’s Dilemma!
 2 players, 6+ Blinks, 5-20 Min.
 
 The King’s Dilemma is a 2 player game where players take turns flicking their Blinks at their opponent’s “King” Blink to try to knock them off the table / out of the arena. 
+
 <b> Setup: </b>
 
 1. First choose a table or demarcate the boundaries of an “arena” on a surface. This is your time to assemble your battlefield! Use whatever you have in your house (books, cups, pencils, etc.) to construct your environment and create a unique playfield of barriers and obstacles.

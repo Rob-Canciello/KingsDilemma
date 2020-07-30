@@ -49,7 +49,7 @@ Queen: After being flicked, the player can hold it down around its edges during 
 Visuals: Shimmering white on royal purple background.
 
 Alchemist
-NOTE: NOT CURRENTLY IMPLEMENTED YET.
+NOTE: MECHANIC NOT CURRENTLY IMPLEMENTED YET. USE AS REGULAR PAWN FOR NOW.
 
 /*Upon connection with another Blink, passes a blinking “Bomb” face to the connected Blink.
 Every time the affected Blink with the “Bomb” face connects to another Blink (friendly or enemy) they pass it to the other Blink and the Bomb automatically “ticks” down one. After X ticks, the unit that receives the bomb on the last tick is removed from the game. This does not work on the King.

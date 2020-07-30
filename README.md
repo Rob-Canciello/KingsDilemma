@@ -25,16 +25,16 @@ The King’s Dilemma is a 2 player game where players take turns flicking their 
 <b> Gameplay: </b>
 Each turn, a player can take one of two actions: flick a Blink or use one of its abilities.
 
-If a Blink connects to another Blink, unless it’s related to a role ability, separate the Blinks equally from their contact point, about  1 inch apart
+If a Blink connects to another Blink, unless it’s related to a role ability, separate the Blinks equally from their contact point, about 1 inch apart
 
 If a Blink falls off the board or out of the arena bounds as the result of a flick, whether intentional or by accident, that Blink is removed from the game (unless it’s the King). Players continue flicking and repositioning their Blinks until the win condition is met. 
 
 <b> Win Condition: </b>
 
-The first player to lower their opponent King’s health to 0 by knocking it off the board or out of the arena wins! But be careful, if your King falls off the board at the same time as the other King, you’ll both lose!
+The first player to knock their opponent's King off the board or out of the arena 3 times wins! But be careful, if your King falls off the board at the same time as the other King, you’ll both lose! Future Update: When your King is knocked out, you must single click to remove one of it's health points (represented as a crown of gold).
 
 <b> Current Roles: </b>
-King - Your leader. Can be flicked at an opponent. Has 3 health. When knocked off the table, it is clicked to remove one health.
+King - Your leader. Can be flicked at an opponent. When knocked off the table, your opponent gains 1 point.
 Visuals: 3 faces of a gold (crown), on slow pulsing purple. 
 
 Knight - Can be flicked at a friendly Blink and, if successfully connected, that piece is stacked on top of the Knight to make it more stable. That piece (or the Knight) can be flicked on your following turn. A Knight cannot stack with a unit already protected by a Knight.

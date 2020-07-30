@@ -21,18 +21,18 @@ The King’s Dilemma is a 2 player game where players take turns flicking their 
 5. Once teams have been assigned, players position them however they like on their side of the table. Choose who goes first and then gameplay begins.  
 
 
-Gameplay:
+<b> Gameplay: </b>
 Each turn, a player can take one of two actions: flick a Blink or use one of its abilities.
 
 If a Blink connects to another Blink, unless it’s related to a role ability, separate the Blinks equally from their contact point, about  1 inch apart
 
 If a Blink falls off the board or out of the arena bounds as the result of a flick, whether intentional or by accident, that Blink is removed from the game (unless it’s the King). Players continue flicking and repositioning their Blinks until the win condition is met. 
 
-Win Condition:
+<b> Win Condition: </b>
 
 The first player to lower their opponent King’s health to 0 by knocking it off the board or out of the arena wins! But be careful, if your King falls off the board at the same time as the other King, you’ll both lose!
 
-Current Roles:
+<b> Current Roles: </b>
 King - Your leader. Can be flicked at an opponent. Has 3 health. When knocked off the table, it is clicked to remove one health.
 Visuals: 3 faces of a gold (crown), on slow pulsing purple. 
 
